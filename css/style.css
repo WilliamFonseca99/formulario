@@ -1,0 +1,134 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #333;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding: 10px 0;
+
+} 
+
+input[type="text"], [type="date"], [type="number"], [type="file"], textarea {
+    width: 400px;
+}
+
+textarea {
+    padding:10px 5px;
+    width: 400px;
+}
+
+/* CABEÇARIO */
+
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #673AB7;
+}
+
+.header h3 {
+    color: #fff;
+    text-align: center;
+}
+
+/* CONTAINER - FORMULARIO*/
+
+.form-container {
+    background-color: #fff;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -62px;
+}
+
+/*  HEADER  - FORMULARIO*/
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+    font-weight: bold;
+}
+
+.form-header p{
+    color: #673AB7;
+    border-bottom: 1px solid #673AB7;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+	margin-left: auto;
+    text-transform: uppercase;
+    height:45px;
+    line-height: 45px;
+}
+
+/*  BODY  - FORMULARIO*/
+.form-body {
+    padding: 30px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.form-title {
+    margin-bottom: 2px;
+}
+
+.required-field {
+	color: #D80835;
+}
+
+.box-input {
+    margin-bottom: 30px;
+}
+
+.block {
+    display: block;
+}
+
+.opcionais-box {
+    display:inline-block;
+    margin: 30px;
+}
+
+.option-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+/* INPUTS - LIMPAR E RESET*/
+
+.inputs input{
+    cursor: pointer;
+    margin-left: 2px;
+    border: 1px solid;
+    color: #FFF;
+    background-color: #673AB7;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    transition: .5s;
+
+}
+
+.inputs input:hover {
+	background-color: #FFF;
+	border-color: #673AB7;
+	color: #673AB7;
+}
